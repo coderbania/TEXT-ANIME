@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    
+    height:100% ;
+    width: 100%;
+    background-color: rgb(0, 4, 8);
+}
+h1{
+    height: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 100px;
+    color: transparent;
+    background: linear-gradient(to right ,rgb(245, 75, 103),rgb(42, 8, 136) );
+    -webkit-background-clip:text;
+    text-shadow: 0 0 60px rgba(250, 5, 87, 0.575);
+    animation:coder 1s infinite alternate;
+
+    
+}
+@keyframes coder {
+    100%{
+    text-shadow: 0 0 60px rgba(3, 8, 80, 0.575);
+        
+    }
+
+ 
+}
